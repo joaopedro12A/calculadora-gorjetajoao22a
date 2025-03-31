@@ -189,14 +189,15 @@ input::-webkit-outer-spin-button {
             div {
                 grid-template-columns: repeat(3, 1fr);
 
+                }
+
                 button:hover {
                     background: var(--water-leaf);
                     cursor: pointer;
                     transition: .4s;
                 }
             }
-        }
-    }
+}
 
     .results {
         display: flex;
